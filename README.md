@@ -143,34 +143,6 @@ The `videos/` folder contains:
 - `video_lidar_testing_seeing_lab_S002.mp4` — LIDAR mapping the lab environment
 - `video_lidar_testing_by_hand_covering.mp4` — LIDAR obstacle detection test
 
-## 📁 Repository Structure
-
-```
-nour-robot-embedded-navigation/
-├── firmware.ino              # Teensy 3.2 ROS firmware (motors, encoders, IMU, PID)
-├── arduino_code.ino          # Arduino emergency stop (ultrasonic sensors + relay)
-├── images/                   # Hardware and system diagram images
-└── videos/                   # Demo and testing videos
-```
-
-## 🚀 Getting Started
-
-**Requirements:**
-- Teensy 3.2 with Teensyduino + Arduino IDE
-- ROS Melodic on Nvidia Jetson (Ubuntu 18.04)
-- `rosserial`, `rosserial_arduino` packages
-- `nour_msgs` custom message package
-- `gmapping`, `amcl`, `move_base`, `rplidar_ros` ROS packages
-
-**Flash firmware:**
-```bash
-# Upload firmware.ino to Teensy 3.2 via Arduino IDE with Teensyduino
-# Upload arduino_code.ino to Arduino UNO
-
-# Launch ROS Serial bridge on Jetson
-rosrun rosserial_python serial_node.py /dev/ttyUSB0 _baud:=57600
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to improve the PID tuning, extend the ROS node interface, or add new sensor integrations.
