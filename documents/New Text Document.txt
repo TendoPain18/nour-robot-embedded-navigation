@@ -1,0 +1,32 @@
+Dear Students, Please fill out the Role selection form to indicate your first choice (most preferred role) and second choice (backup role). you will be assigned one of your choices based on the availability of the team.
+
+
+All teams will need to deal with their work on ROS differently but keep that in mind.
+
+
+Role Descriptions :
+Mechanical and Design:
+Design a new Modular Chasis, easy to assemble and maintain
+Selecting  for construction.
+Make it a more human-like/friendly shape. 
+Camera and Lidar mounting, ultrasonic, and infrared sensors, and a screen (for emotion generation, and visual response.).
+Make a URDF on ROS for the system and define your parameters and needed low-level nodes
+Provide modular connection to the whole system
+Collision avoidance and safety features.
+Embedded and Electrical:
+Combine all system boot up with a single button
+Connecting Sensors in a modular base
+Make all data reading of sensors on ros-nodes (low-level) 
+Make all action handlers for the actuator in ros (low-level)
+Provide modular connection to the whole system
+generation of bionic/robotic sound at start/end of motions or events.
+Control and Navigation:
+Make a high-level control for the system
+Maintain Collision Avoidance, Navigation, and Mapping using visual slam 
+Maintain Connection of other Systems with different moods of operation
+Provide modular connection to the whole system
+AI and Chatbot:
+Implementing  to identify users.
+Developing an  with an  for natural interaction.
+Creating  for the robot to make interactions more engaging.
+Displaying  (e.g., happy, sad, curious) and connecting these features to ROS.
