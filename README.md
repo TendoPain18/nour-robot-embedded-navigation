@@ -139,7 +139,7 @@ The robot was tested in the IRES lab at Zewail City. It successfully built a sta
 ## 🎥 Demo Videos
 
 The `videos/` folder contains:
-- `video_robot_moving_demo.mp4` — Robot moving autonomously
+- `video_robot_moving_demo.mp4` — Robot moving
 - `video_lidar_testing_seeing_lab_S002.mp4` — LIDAR mapping the lab environment
 - `video_lidar_testing_by_hand_covering.mp4` — LIDAR obstacle detection test
 
